@@ -1,0 +1,41 @@
+Multiple Choice Questions:
+
+b) whoami 
+c) man 
+b) File permissions
+b) ls
+d) Current directory
+d) Changes to /a/b directory
+a) git add
+d) Repository metadata and version history 
+c) The currently checked-out commit
+a) Copy file1 to file2
+d) Lists the contents of a directory 
+
+Theory Part:
+What is Git and why is it important?
+Git is a distributed version control system. It's important because:
+
+It allows multiple developers to work on a project simultaneously.
+It tracks changes in code over time, allowing for easy rollbacks if needed.
+It facilitates collaboration through features like branching and merging.
+It provides a complete history of all changes made to a project.
+It enables offline work and syncing when online.
+
+Steps to create and push a project to a GitHub repository:
+
+Create a new repository on GitHub.
+Initialize Git in your local project directory:
+git init
+
+Add all files to the staging area:
+git add .
+
+Commit the files:
+git commit -m "Initial commit"
+
+Link your local repository to the GitHub repository:
+git remote add origin https://github.com/username/repo-name.git
+
+Push your code to GitHub:
+git push
